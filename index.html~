@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script id="choice-items-template" type="x-handlebars-template">​
+  <ul>
+    {{#each this}}
+    <img src="/pictures/{{path}}" alt="{{name}}">
+    <li>
+      <button type="button" id="id-{{id}}" class="plus_1_button">+1</button>
+    </li>
+    <li>
+      <button type="button" id="id-{{id}}" class="plus_5_button">+5</button>
+    </li>  
+    <li>
+      <button type="button" id="id-{{id}}" class="plus_10_button">+10</button>
+    </li>
+    {{/each}}
+  </ul>
+</script> 
+
+<html>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="question_box.js"></script>
+  <script src="libraries/handlebars-v4.0.5.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="design.css">
+  
+  <head>
+    
+    <title>WordMath</title>
+    
+    <div class="main-content">
+      
+      <!-- Main page view -->
+      
+      <div class="main-view page">
+	
+	<div class = "main-screen-start">
+	  <h3>קצפת!!!!</h3>
+	  <a href="#questions">
+	    <img src="internal/cursor.png" height="130" alt="move to page"/>
+	  </a>
+	</div>
+      </div>
+
+
+      <!-- Single question view -->
+
+      <div class="single-question-view page">
+	<div id="question-box">
+
+	</div>
+	<div id="canvas-div">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <style media="screen">canvas{border:1px solid #CCC;}html,body{overflow:hidden;}</style>
+	  <canvas id="example" height=450 width=300></canvas>
+	  <script src="multitouch.js"></script>
+	</div>
+	<Br><br>
+	<br><br>
+	<input id="cursor_mode" type="image" src="internal/cursor.png" />
+	<input id="draw_mode" type="image" src="internal/paintbrush.png" />
+	<input id="erase_mode" type="image" src="internal/eraser.png" />
+	<ul class="choice-items-list">
+	  
+	</ul>
+	
+	<a href="#questions">
+	  <img src="internal/qmark.png" alt="move to page"/>
+	</a>
+	<a href="#items">
+	  <img src="internal/imbox.png" alt="move to page"/>
+	</a>
+
+      </div>
+      
+      <!-- All questions view -->
+
+      <div class="questions-view page">
+
+	<h3> Select your questions here </h3>
+	<ul class="questions-list">
+	  
+	  <script id="questions-template" type="x-handlebars-template">​
+	    {{#each this}}
+	    <li data-index="{{id}}">
+              <a href="#question/{{id}}" class="question-content">{{id}} - {{content}}</a>
+	    </li>
+	    {{/each}}
+	  </script> 
+
+	</ul>
+
+      </div>
+
+      <!-- All items view -->
+
+      <div class="items-view page">
+	<h3> Select your items here </h3>
+	<ul class="items-list">
+	  
+	  <script id="items-template" type="x-handlebars-template">​
+	    {{#each this}}
+	      <li data-index="{{id}}">
+		<input id="item-{{id}}" type="image" src="pictures/{{path}}" />
+              </li>
+	    {{/each}}
+	  </script> 
+
+	</ul>
+	
+	<a href="#question" id="items-back">
+	  <img src="internal/backarrow.png" alt="move to page"/>
+	</a>
+
+      </div>
+
+    </div>
+</body>
+</html>

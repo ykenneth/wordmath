@@ -1,0 +1,50 @@
+.main-screen-start {
+	width: 500px;
+	height: 100px;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+	text-align: center;
+}
+
+.questions-list {
+
+    text-align: center;
+}
+
+.items-list-item {      
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+} 
+
+li a {
+    display: block;
+    text-align: center;
+}
+
+.selected {
+    background-color: yellow;
+}
+
+ul.choice-items-list li{
+    display:inline;
+}
+
+ul.items-list li{
+    display:inline;
+}
+
+canvas-div {
+    text-align: ceneter;
+}

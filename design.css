@@ -1,0 +1,259 @@
+html {
+    height:100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main-screen-start {
+    position:fixed;
+    top: 50%;
+    left: 20%;
+    width:60%;
+    height:10em;
+    margin-top: -5em; /*set to a negative number 1/2 of your height*/
+    background-color: #4F81BD;
+    text-align: center;
+    color: white;
+}
+
+.question-view-page {
+    text-align: center;
+}
+.questions-header {
+    height:4em;
+    margin-top: -2em; /*set to a negative number 1/2 of your height*/
+    background-color: #4F81BD;
+    text-align: center;
+    color: white;
+}
+.items-header {
+    position:absolute;
+    top: 5%;
+    left: 20%;
+    width:60%;
+    height:4em;
+    background-color: #4F81BD;
+    text-align: center;
+    color: white;
+}
+
+.items-box {
+    position:absolute;
+    top: 15%;
+    left: 5%;
+    width:90%;
+    height: 75%;
+    background-color: #ebf1de;
+    text-align: center;
+    color: white;
+    border: 3px solid blue;
+}
+
+.questions-list {
+
+    text-align: right;
+}
+
+.items-list-item {
+    border: 1px solid black;
+}
+
+.selected {
+    border: 2px solid blue;
+    background-color: white;
+}
+
+ul.choice-items-list li{
+    display:inline;
+}
+
+ul.items-list li{
+    padding: 10px 5px;
+    display:inline-block;
+}
+
+.item-picture {
+    height: 50px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    vertical-align: top;
+}
+
+.question-number {
+    text-align: center;
+    font-weight: bold;
+
+}
+table.questions-table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 25px;
+}
+
+table.questions-table tr{
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+table.questions-table td{
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+table.questions-table th{
+    border-collapse: collapse;
+    border: 1px solid white;
+    min-width: 75px;
+}
+
+
+.brush-settings {
+    position: relative;
+    float: left;
+
+    width: 7%;
+    height:100%;
+}
+
+.canvas-div {
+    position: relative;
+    float: left;
+
+    width: 73%;
+    height: 650px;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
+
+.items-table {
+    position: relative;
+    float: left;
+
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.main-view {
+    height:100%;
+}
+
+.main-content {
+    height: 100%;
+}
+
+
+table.questions-table th {
+    background-color: #9bbb59;
+}
+
+table.questions-table tr:nth-child(even) {
+    background-color: #eff3e9;
+}
+
+table.questions-table tr:nth-child(odd) {
+    background-color: #dee7d1;
+}
+
+#items-back{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+}
+
+a {
+    color:black;
+}
+
+.counter {
+    background-color: #953735;
+    color: white;
+    width: 45px;
+    font-size: large;
+    text-align: center;
+
+}
+
+.plus_button {
+    background-color: #4F81BD; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+    width: 45px;
+}
+
+.min_button {
+    background-color: #4F81BD;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+    width: 45px;
+}
+
+.spacer-row td{
+    border-bottom: 2px solid #4F81BD;
+}
+
+table.items-choice-table td{
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+}
+
+table.items-choice-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.question-content {
+    float: left;
+    font-size: 25px;
+    border: 2px solid dodgerblue;
+    width: 85%;
+    margin-left: 5%;
+    height: 20%;
+}
+
+#all-questions {
+    width: 10%;
+    margin-top: 0.5em;
+    float: left;
+    text-align: center;
+    height: 20%;
+}
+
+.question-box {
+    border-bottom: 2px solid red;
+    min-height: 150px;
+}
+
+.main-single-view {
+    width: 100%;
+}
+
+
+.single-question-view {
+    width: 100%;
+}
+
+.page {
+    display: block;
+}

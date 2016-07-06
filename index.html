@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script id="choice-items-template" type="x-handlebars-template">​
+    <table class="items-choice-table">
+        <tbody>
+
+            {{#each this}}
+            <tr>
+                    <td><img src="/pictures/{{path}}" alt="{{name}}" class="item-picture"></td>
+                    <td><div id="count-{{id}}" class="counter">0</div></td>
+                    <td></td>
+            </tr>
+                <tr>
+                    <td>
+                        <button type="button" id="id-{{id}}" count="1" class="plus_button">+1</button>
+                    </td>
+                    <td>
+                        <button type="button" id="id-{{id}}" count="5" class="plus_button">+5</button>
+                    </td>
+                    <td>
+                        <button type="button" id="id-{{id}}" count="10" class="plus_button">+10</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" id="id-{{id}}" count="1" class="min_button">-1</button>
+                        </td>
+                    <td>
+                        <button type="button" id="id-{{id}}" count="5" class="min_button">-5</button>
+                        </td>
+                    <td>
+                        <button type="button" id="id-{{id}}" count="10" class="min_button">-10</button>
+                    </td>
+                </tr>
+                <tr class="spacer-row">
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</script> 
+
+<html dir="rtl">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="question_box.js"></script>
+  <script src="libraries/handlebars-v4.0.5.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="design.css">
+  <title>WordMath</title>
+  <SCRIPT>
+  function password() {
+    var testV = 1;
+    while (testV < 3) {
+      var pass1 = prompt('Please Enter Your Password',' ');
+      if (pass1.toLowerCase() == "letmein") {
+        break;
+      }
+    }
+  }
+  $( document ).ready(function() {
+      password();
+  });
+  </SCRIPT>
+
+  <body>
+
+
+    <div class="main-content">
+
+      <!-- Main page view -->
+
+        <div class="main-view page">
+            <a href="#questions">
+
+                <div class = "main-screen-start">
+                    <h1>
+                        קצפת
+                    </h1>
+	            </div>
+            </a>
+      </div>
+        <!-- Single question view -->
+
+    <div class="single-question-view page">
+
+	<div id="question-box" class="question-box">
+	  <div id="question-content" class="question-content">
+	  </div>
+
+	  <div id="all-questions" >
+	    <a href="#questions">
+	      <img src="internal/qmark.png" alt="move to page"/>
+	    </a>
+	  </div>
+	</div>
+	<div id="main-single-view">
+
+	  <div id="brush-settings" class="brush-settings">
+	    <input id="cursor_mode" type="image" src="internal/cursor.png" />
+	    <input id="draw_mode" type="image" src="internal/paintbrush.png" />
+	    <input id="erase_mode" type="image" src="internal/eraser.png" />
+	  </div>
+
+	  <div id="canvas-div" class="canvas-div">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <style media="screen">canvas{border:1px solid #CCC;}html,body{}</style>
+	    <canvas id="draw-canvas" height=450 width=300></canvas>
+	    <script src="multitouch.js"></script>
+	  </div>
+	  <div id="items" class="items-table">
+	      <ul class="choice-items-list">
+          </ul>
+
+	    <a href="#items">
+	      <img src="internal/imbox.png" alt="move to page"/>
+	    </a>
+	  </div>
+
+	</div>
+    </div>
+
+        <!-- All questions view -->
+
+        <div class="questions-view page">
+            <div class="questions-header">
+                <h3>בחר שאלה</h3>
+            </div>
+
+
+		<table class="questions-table">
+			<thead>
+			    <th>מס </th>
+			    <th>שאלה</th>
+			</thead>
+                <tbody class="questions-list">
+                    <script id="questions-template" type="x-handlebars-template">​
+                        {{#each this}}
+                            <tr>
+                                <td class="question-number">{{id}}</td>
+                                <td><a href="#question/{{id}}" >{{content}}</a></td>
+                            </tr>
+                            {{/each}}
+                    </script> 
+                </tbody>
+        </table>
+
+
+      </div>
+
+      <!-- All items view -->
+
+      <div class="items-view page">
+          <div class="items-header">
+	        <h3>דף פריטים </h3>
+          </div>
+
+        <div class="items-box">
+            <ul class="items-list">
+
+                <script id="items-template" type="x-handlebars-template">​
+                    {{#each this}}
+                        <li data-index="{{id}}" class="3d">
+                            <input id="item-{{id}}" class="item-picture" type="image" src="pictures/{{path}}" />
+                        </li>
+                    {{/each}}
+                </script> 
+            </ul>
+        </div>
+
+      <a href="#question" id="items-back">
+	  <img src="internal/backarrow.png" alt="move to page"/>
+	</a>
+
+      </div>
+
+    </div>
+</body>
+</html>

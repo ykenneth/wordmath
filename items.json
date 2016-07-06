@@ -1,0 +1,322 @@
+[
+    {
+	"id": 0,
+	"layer": 1,
+	"path": "bus1.png"
+    },
+    {
+	"id": 1,
+	"layer": 3,
+	"path": "bike.png"
+    },
+    {
+	"id": 2,
+	"layer": 3,
+	"path": "pear.png"
+    },
+    {
+	"id": 3,
+	"layer": 1,
+	"path": "bus.png"
+    },
+    {
+	"id": 4,
+	"layer": 3,
+	"path": "woman.png"
+    },
+    {
+	"id": 5,
+	"layer": 3,
+	"path": "woman1.png"
+    },
+    {
+	"id": 6,
+	"layer": 1,
+	"path": "box.png"
+    },
+    {
+	"id": 7,
+	"layer": 1,
+	"path": "box1.png"
+    },
+    {
+	"id": 8,
+	"layer": 3,
+	"path": "bunny.png"
+    },
+    {
+	"id": 9,
+	"layer": 3,
+	"path": "pretzel.png"
+    },
+    {
+	"id": 10,
+	"layer": 3,
+	"path": "banana.png"
+    },
+    {
+	"id": 11,
+	"layer": 3,
+	"path": "bottle.png"
+    },
+    {
+	"id": 12,
+	"layer": 3,
+	"path": "man.png"
+    },
+    {
+	"id": 13,
+	"layer": 3,
+	"path": "man1.png"
+    },
+    {
+	"id": 14,
+	"layer": 3,
+	"path": "cat.png"
+    },
+    {
+	"id": 15,
+	"layer": 3,
+	"path": "boy.png"
+    },
+    {
+	"id": 16,
+	"layer": 3,
+	"path": "boy1.png"
+    },
+    {
+	"id": 17,
+	"layer": 3,
+	"path": "girl.png"
+    },
+    {
+	"id": 18,
+	"layer": 3,
+	"path": "girl1.png"
+    },
+    {
+	"id": 19,
+	"layer": 3,
+	"path": "dog.png"
+    },
+    {
+	"id": 20,
+	"layer": 3,
+	"path": "chair.png"
+    },
+    {
+	"id": 21,
+	"layer": 3,
+	"path": "shelf.png"
+    },
+    {
+	"id": 22,
+	"layer": 3,
+	"path": "2NIS.png"
+    },
+    {
+	"id": 23,
+	"layer": 3,
+	"path": "10NIS.png"
+    },
+    {
+	"id": 24,
+	"layer": 3,
+	"path": "5NIS.png"
+    },
+    {
+	"id": 25,
+	"layer": 3,
+	"path": "halfNIS.png"
+    },
+    {
+	"id": 26,
+	"layer": 3,
+	"path": "1NIS.png"
+    },
+    {
+	"id": 27,
+	"layer": 1,
+	"path": "minibus.png"
+    },
+    {
+	"id": 28,
+	"layer": 3,
+	"path": "cookie.png"
+    },
+    {
+	"id": 29,
+	"layer": 3,
+	"path": "cookie1.png"
+    },
+    {
+	"id": 30,
+	"layer": 3,
+	"path": "pen.png"
+    },
+    {
+	"id": 31,
+	"layer": 3,
+	"path": "pencil.png"
+    },
+    {
+	"id": 32,
+	"layer": 3,
+	"path": "soda.png"
+    },
+    {
+	"id": 33,
+	"layer": 3,
+	"path": "pizza.png"
+    },
+    {
+	"id": 34,
+	"layer": 3,
+	"path": "crayon.png"
+    },
+    {
+	"id": 35,
+	"layer": 3,
+	"path": "group.png"
+    },
+    {
+	"id": 36,
+	"layer": 1,
+	"path": "box2.png"
+    },
+    {
+	"id": 37,
+	"layer": 1,
+	"path": "bowl.png"
+    },
+    {
+	"id": 38,
+	"layer": 1,
+	"path": "carriage.png"
+    },
+    {
+	"id": 39,
+	"layer": 1,
+	"path": "carriage2.png"
+    },
+    {
+	"id": 40,
+	"layer": 1,
+	"path": "rollercoaster.png"
+    },
+    {
+	"id": 41,
+	"layer": 1,
+	"path": "train.png"
+    },
+    {
+	"id": 42,
+	"layer": 1,
+	"path": "table.png"
+    },
+    {
+	"id": 43,
+	"layer": 3,
+	"path": "chocolate.png"
+    },
+    {
+	"id": 44,
+	"layer": 3,
+	"path": "20NIS.png"
+    },
+    {
+	"id": 45,
+	"layer": 3,
+	"path": "50NIS.png"
+    },
+    {
+	"id": 46,
+	"layer": 3,
+	"path": "100NIS.png"
+    },
+    {
+	"id": 47,
+	"layer": 3,
+	"path": "200NIS.png"
+    },
+    {
+	"id": 48,
+	"layer": 1,
+	"path": "bag.png"
+    },
+    {
+	"id": 49,
+	"layer": 3,
+	"path": "parrot.png"
+    },
+    {
+	"id": 50,
+	"layer": 3,
+	"path": "orange.png"
+    },
+    {
+	"id": 51,
+	"layer": 3,
+	"path": "apple.png"
+    },
+    {
+    	"id": 52,
+    	"layer": 3,
+    	"path": "apple1.png"
+    },
+    {
+    	"id": 53,
+    	"layer": 3,
+    	"path": "nut1.png"
+    },
+    {
+    	"id": 54,
+    	"layer": 3,
+    	"path": "nut2.png"
+    },
+    {
+    	"id": 55,
+    	"layer": 1,
+    	"path": "pot2.png"
+    },
+    {
+    	"id": 56,
+    	"layer": 1,
+    	"path": "pot1.png"
+    },
+    {
+    	"id": 57,
+    	"layer": 3,
+    	"path": "flower2.png"
+    },
+    {
+    	"id": 58,
+    	"layer": 3,
+    	"path": "flower1.png"
+    },
+    {
+    	"id": 59,
+    	"layer": 3,
+    	"path": "flower3.png"
+    },
+    {
+    	"id": 60,
+    	"layer": 3,
+    	"path": "cards.png"
+    },
+    {
+    	"id": 61,
+    	"layer": 3,
+    	"path": "tennisball.png"
+    },
+    {
+    	"id": 62,
+    	"layer": 1,
+    	"path": "shelf2.jpg"
+    },
+    {
+    	"id": 63,
+    	"layer": 3,
+    	"path": "bulb.png"
+    }
+]
